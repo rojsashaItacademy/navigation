@@ -14,5 +14,11 @@ class SecondFragment : BaseFragment() {
         val arguments = SecondFragmentArgs.fromBundle(requireArguments())
 
         Toast.makeText(context, arguments.myData?.login, Toast.LENGTH_SHORT).show()
+
+
+
+
+
+
     }
 }
